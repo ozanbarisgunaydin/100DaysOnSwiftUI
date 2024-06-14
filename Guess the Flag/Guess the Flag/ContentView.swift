@@ -37,3 +37,31 @@ struct ContentView: View {
 //        .background(.ultraThinMaterial)
 //}
 //.ignoresSafeArea()
+
+// MARK: - Simple gradient
+//LinearGradient(
+//    colors: [
+//        .red,
+//        .blue
+//    ],
+//    startPoint: .top,
+//    endPoint: .bottom
+//)
+
+// MARK: - Linear Stop Grandient
+//LinearGradient(
+//    stops: [
+//        .init(color: .white, location: 0.45),
+//        .init(color: .black, location: 0.55)
+//    ],
+//    startPoint: .top,
+//    endPoint: .bottom
+//)
+
+// MARK: - Radial Gradient
+//RadialGradient(
+//    colors: [.blue, .red],
+//    center: .center,
+//    startRadius: 0,
+//    endRadius: 150
+//)
