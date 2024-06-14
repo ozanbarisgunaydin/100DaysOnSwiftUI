@@ -74,3 +74,40 @@ struct ContentView: View {
 //    .frame(maxWidth: .infinity, maxHeight: .infinity)
 //    .foregroundColor(.white)
 //    .background(.indigo.gradient)
+
+// MARK: - Button Styles
+//VStack {
+//    Button("Button 1") { }
+//        .buttonStyle(.bordered)
+//    
+//    Button("Button 2", role: .destructive) { }
+//        .buttonStyle(.bordered)
+//    
+//    Button("Button 3") { }
+//        .buttonStyle(.borderedProminent)
+//        .tint(.indigo)
+//    
+//    Button("Button 4", role: .destructive) { }
+//        .buttonStyle(.borderedProminent)
+//}
+
+// MARK: - Custom Button
+//Button {
+//    print("⭕️ Button was tapped")
+//} label: {
+//    Text("Tap me!")
+//        .padding()
+//        .foregroundColor(.white)
+//        .background(.red)
+//    }
+
+//Button {
+//    print("⭕️ Button was tapped")
+//} label: {
+//    Label("Edit", systemImage: "pencil")
+//        .padding()
+//        .foregroundStyle(.white)
+//        .background(.red.gradient)
+//        .cornerRadius(4)
+//}
+
