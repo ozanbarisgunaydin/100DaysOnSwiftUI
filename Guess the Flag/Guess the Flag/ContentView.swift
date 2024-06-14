@@ -22,3 +22,18 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
+// MARK: - Glass Effect
+//ZStack {
+//    VStack(spacing: 0) {
+//        Color.red
+//        Color.blue
+//    }
+//    
+//    Text("Your content")
+//        .foregroundStyle(.secondary)
+//        .padding(50)
+//        .background(.ultraThinMaterial)
+//}
+//.ignoresSafeArea()
