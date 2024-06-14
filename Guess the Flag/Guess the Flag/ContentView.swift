@@ -65,3 +65,12 @@ struct ContentView: View {
 //    startRadius: 0,
 //    endRadius: 150
 //)
+
+// MARK: - Angular Gradient
+//AngularGradient(colors: [.red, .yellow, .green, .blue, .red], center: .center)
+
+// MARK: - Color `.gradient` effect
+//Text("Hello, world!")
+//    .frame(maxWidth: .infinity, maxHeight: .infinity)
+//    .foregroundColor(.white)
+//    .background(.indigo.gradient)
