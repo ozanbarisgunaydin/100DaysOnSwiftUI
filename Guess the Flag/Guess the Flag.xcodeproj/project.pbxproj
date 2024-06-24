@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06C94D9A2C298C070052DEF3 /* ProjectSideTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C94D992C298C070052DEF3 /* ProjectSideTips.swift */; };
+		06C94D9C2C29AFEA0052DEF3 /* ViewAndModifiers.json in Sources */ = {isa = PBXBuildFile; fileRef = 06C94D9B2C29AFEA0052DEF3 /* ViewAndModifiers.json */; };
 		06D381612C1C3031003473E0 /* Guess_the_FlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D381602C1C3031003473E0 /* Guess_the_FlagApp.swift */; };
 		06D381632C1C3031003473E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D381622C1C3031003473E0 /* ContentView.swift */; };
 		06D381652C1C3032003473E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D381642C1C3032003473E0 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		06C94D992C298C070052DEF3 /* ProjectSideTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSideTips.swift; sourceTree = "<group>"; };
+		06C94D9B2C29AFEA0052DEF3 /* ViewAndModifiers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ViewAndModifiers.json; sourceTree = "<group>"; };
 		06D3815D2C1C3031003473E0 /* Guess the Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess the Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D381602C1C3031003473E0 /* Guess_the_FlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_the_FlagApp.swift; sourceTree = "<group>"; };
 		06D381622C1C3031003473E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 		06D381542C1C3031003473E0 = {
 			isa = PBXGroup;
 			children = (
+				06C94D9B2C29AFEA0052DEF3 /* ViewAndModifiers.json */,
 				06C94D992C298C070052DEF3 /* ProjectSideTips.swift */,
 				06D3815F2C1C3031003473E0 /* Guess the Flag */,
 				06D3815E2C1C3031003473E0 /* Products */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D381632C1C3031003473E0 /* ContentView.swift in Sources */,
+				06C94D9C2C29AFEA0052DEF3 /* ViewAndModifiers.json in Sources */,
 				06C94D9A2C298C070052DEF3 /* ProjectSideTips.swift in Sources */,
 				06D381612C1C3031003473E0 /* Guess_the_FlagApp.swift in Sources */,
 			);
