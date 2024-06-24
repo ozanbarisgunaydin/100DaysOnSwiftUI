@@ -63,7 +63,7 @@ struct ContentView: View {
                     .pickerStyle(.segmented)
                 }
                 
-                Section("Amount per perso") {
+                Section("Amount per person") {
                     Text(
                         totalPerPerson,
                         format: .currency(code: Locale.current.currency?.identifier ?? "TRY")
@@ -75,6 +75,7 @@ struct ContentView: View {
                         totalTipAmount,
                         format: .currency(code: Locale.current.currency?.identifier ?? "TRY")
                     )
+                    .foregroundColor(tipPercantage == 0 ? .red : .black)
                 }
             }
             .navigationTitle("WeSplit")
