@@ -16,7 +16,7 @@ struct ContentView: View {
     @State private var errorTitle = ""
     @State private var errorMessage = ""
     @State private var showingError = false
-
+    
     var body: some View {
         VStack {
             NavigationStack {
@@ -45,24 +45,25 @@ struct ContentView: View {
                     Text(errorMessage)
                 }
             }
-            Spacer()
-            ZStack {
+            VStack {
+                Text("Total Score")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                Text("\(score)")
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+            }
+
+            .frame(maxWidth: .infinity, maxHeight: 256)
+            .background(
                 LinearGradient(
                     colors: [.red.opacity(0.4), .blue.opacity(0.8)],
                     startPoint: .topLeading,
                     endPoint: .bottomTrailing
                 )
-                    .cornerRadius(20)
-                VStack {
-                    Text("Total Score")
-                        .font(.title)
-                        .fontWeight(.semibold)
-                    Text("\(score)")
-                        .font(.largeTitle)
-                        .fontWeight(.heavy)
-                }
-            }
-            .padding(16)
+            )
+            .cornerRadius(20)
+            .padding()
         }
     }
     
