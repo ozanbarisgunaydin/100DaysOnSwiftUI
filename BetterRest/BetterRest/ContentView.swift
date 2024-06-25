@@ -7,16 +7,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @State private var sleepAmount = 8.0
-    
+struct ContentView: View {    
     var body: some View {
-        Stepper(
-            "\(sleepAmount.formatted()) hours",
-            value: $sleepAmount,
-            in: 4...12,
-            step: 0.25
-        )
+        Text(Date.now.formatted(date: .long, time: .shortened))
     }
 }
 
