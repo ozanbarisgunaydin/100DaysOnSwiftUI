@@ -1,0 +1,36 @@
+
+// MARK: - Stepper
+/*
+struct ContentView: View {
+    @State private var sleepAmount = 8.0
+    
+    var body: some View {
+        Stepper(
+            "\(sleepAmount.formatted()) hours",
+            value: $sleepAmount,
+            in: 4...12,
+            step: 0.25
+        )
+    }
+}
+ 
+// MARK: - Date Picker
+struct ContentView: View {
+    @State private var wakeUp = Date.now
+    
+    var body: some View {
+        DatePicker(
+            "Please enter a date",
+            selection: $wakeUp,
+            //            displayedComponents: .hourAndMinute /// Hides the date part
+            in: Date.now... /// Hides the past dates on picker (determines the range)
+        )
+        .labelsHidden() /// Voice over nows what is this date picker by this way and the picker desc. hidden
+    }
+    
+    func exampleDates() {
+        let tomorrow = Date.now.addingTimeInterval(86400)
+        let range = Date.now...tomorrow
+    }
+}
+*/
