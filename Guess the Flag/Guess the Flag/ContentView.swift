@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct FlagImage: View {
     var image: String
@@ -41,7 +42,12 @@ struct ContentView: View {
     @State private var scoreTitle = ""
     @State private var score = 0
     @State private var gameCount = 0
-
+    
+    @State private var animationAmount = 0.0
+    @State private var selectedFlagIndex = 0
+    @State private var isFaded = false
+    private let animationDuration = 1.0
+    
     var body: some View {
         ZStack {
             RadialGradient(
@@ -72,10 +78,26 @@ struct ContentView: View {
                     
                     ForEach(0..<3) { number in
                         Button {
-                            flagTapped(number)
+                            selectedFlagIndex = number
+                            trigerFlagTapped()
+                            withAnimation {
+                                animationAmount += 360
+                                isFaded.toggle()
+                            }
                         } label: {
-                            FlagImage(image: countries[number])
+                            if number == selectedFlagIndex {
+                                FlagImage(image: countries[number])
+                                .rotation3DEffect(
+                                    .degrees(animationAmount),
+                                    axis: (x: 0, y: 1, z: 0)
+                                )
+                            } else {
+                                FlagImage(image: countries[number])
+                                    .opacity(isFaded ? 0.25 : 1.0)
+                                    .animation(.easeInOut(duration: 1.0), value: isFaded)
+                            }
                         }
+                        
                     }
                 }
                 .frame(maxWidth: .infinity)
@@ -107,12 +129,19 @@ struct ContentView: View {
         }
     }
     
-    func flagTapped(_ number: Int) {
-        if number == correctAnswer {
+    
+    func trigerFlagTapped() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + animationDuration) {
+            flagTapped()
+        }
+    }
+    
+    func flagTapped() {
+        if selectedFlagIndex == correctAnswer {
             score += 1
             scoreTitle = "Correct!"
         } else {
-            scoreTitle = "Wrong! That's the flag of \(countries[number])"
+            scoreTitle = "Wrong! That's the flag of \(countries[selectedFlagIndex])"
         }
         
         gameCount += 1
@@ -124,8 +153,12 @@ struct ContentView: View {
     }
     
     func askQuestion() {
-        countries.shuffle()
-        correctAnswer = Int.random(in: 0...2)
+        selectedFlagIndex = 0
+        withAnimation {
+            isFaded = false
+            countries.shuffle()
+            correctAnswer = Int.random(in: 0...2)
+        }
     }
     
     func returnInitialStage() {
