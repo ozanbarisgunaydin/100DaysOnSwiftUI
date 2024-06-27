@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct AddView: View {
+    @Environment(\.dismiss) var dismiss
+    
     @State private var name = ""
-    @State private var type = "Personal"
+    @State private var type = ExpenseType.personal
     @State private var amount = 0.0
     
     var expenses: Expenses
     
-    let types = ["Business", "Personal"]
+    let types: [ExpenseType] = [.business, .personal]
     
     var body: some View {
         NavigationStack {
@@ -23,11 +25,11 @@ struct AddView: View {
                 
                 Picker("Type", selection: $type) {
                     ForEach(types, id: \.self) {
-                        Text($0)
+                        Text($0.rawValue)
                     }
                 }
                 
-                TextField("Amount", value: $amount, format: .currency(code: "USD"))
+                TextField("Amount", value: $amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                     .keyboardType(.decimalPad)
             }
             .navigationTitle("Add new expense")
@@ -35,6 +37,7 @@ struct AddView: View {
                 Button("Save") {
                     let item = ExpanseItem(name: name, type: type, amount: amount)
                     expenses.items.append(item)
+                    dismiss()
                 }
             }
         }
