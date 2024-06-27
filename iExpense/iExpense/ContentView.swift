@@ -7,20 +7,35 @@
 
 import SwiftUI
 
-struct ExpenseItem: Identifiable { /// `Identifiable` guarantee the uniq identity and we can delete the `id: \.id` line on the `ForEach`
-    let id = UUID() /// This is required from Identifiable protocol
+struct ExpanseItem: Identifiable, Codable { /// `Identifiable` guarantee the uniq identity and we can delete the `id: \.id` line on the `ForEach`
+    var id = UUID() /// This is required from Identifiable protocol
     let name: String
     let type: String
     let amount: Double
 }
 
 @Observable /// Makes updates views
-class Expenses {
-    var items: [ExpenseItem] = []
+class Expenses: Codable {
+    var items: [ExpanseItem] = [] {
+        didSet {
+            guard let encoded = try? JSONEncoder().encode(items) else { return }
+            UserDefaults.standard.setValue(encoded, forKey: "Items")
+        }
+    }
+    
+    init() {
+        if let savedItems = UserDefaults.standard.data(forKey: "Items"),
+           let decodedItems = try? JSONDecoder().decode([ExpanseItem].self, from: savedItems) {
+            items = decodedItems
+        } else {
+            items = []
+        }
+    }
 }
 
 struct ContentView: View {
     @State private var expenses = Expenses()
+    @State private var showingAddExpense = false
     
     var body: some View {
         NavigationStack {
@@ -33,9 +48,11 @@ struct ContentView: View {
             .navigationTitle("iExpense")
             .toolbar {
                 Button("Add Expense", systemImage: "plus") {
-                    let expense = ExpenseItem(name: "Test", type: "Personal", amount: 5)
-                    expenses.items.append(expense)
+                    showingAddExpense = true
                 }
+            }
+            .sheet(isPresented: $showingAddExpense) {
+                AddView(expenses: expenses)
             }
         }
     }
