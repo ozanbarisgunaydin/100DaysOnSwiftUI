@@ -18,6 +18,7 @@
 		06AE0BFF2C2EC16A0004E248 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE0BFE2C2EC16A0004E248 /* Mission.swift */; };
 		06AE0C012C2ECBB70004E248 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE0C002C2ECBB70004E248 /* Color-Theme.swift */; };
 		06AE0C032C2F027F0004E248 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE0C022C2F027F0004E248 /* MissionView.swift */; };
+		06AE0C052C2F0FFF0004E248 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE0C042C2F0FFF0004E248 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		06AE0BFE2C2EC16A0004E248 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		06AE0C002C2ECBB70004E248 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		06AE0C022C2F027F0004E248 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		06AE0C042C2F0FFF0004E248 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				06AE0BE52C2E9EFC0004E248 /* ContentView.swift */,
 				06AE0C022C2F027F0004E248 /* MissionView.swift */,
+				06AE0C042C2F0FFF0004E248 /* AstronautView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			files = (
 				06AE0C032C2F027F0004E248 /* MissionView.swift in Sources */,
 				06AE0BF62C2EBE480004E248 /* Astronaut.swift in Sources */,
+				06AE0C052C2F0FFF0004E248 /* AstronautView.swift in Sources */,
 				06AE0C012C2ECBB70004E248 /* Color-Theme.swift in Sources */,
 				06AE0BE62C2E9EFC0004E248 /* ContentView.swift in Sources */,
 				06AE0BE42C2E9EFC0004E248 /* MoonshotApp.swift in Sources */,
