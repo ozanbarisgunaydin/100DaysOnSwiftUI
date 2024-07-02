@@ -37,4 +37,23 @@ class Order {
         
         return true
     }
+    
+    var cost: Decimal { /// Decimal is great for money
+        /// $2 per cake
+        var cost = Decimal(quantity) * 2
+        
+        /// Complicated Cakes
+        cost += Decimal(type) / 2
+        
+        /// $1 per cake for extra frosting
+        if extraFrosting {
+            cost += Decimal(quantity)
+        }
+        
+        /// $0.5 per cake for extra sprinkles
+        if extraFrosting {
+            cost += Decimal(quantity) / 2
+        }
+        return cost
+    }
 }
