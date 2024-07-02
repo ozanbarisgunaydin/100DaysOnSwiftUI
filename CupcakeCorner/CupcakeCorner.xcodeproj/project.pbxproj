@@ -55,10 +55,9 @@
 		0601889B2C33F3B400CB8F51 /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
+				060188B02C343F6500CB8F51 /* Side Lessons */,
 				0601889C2C33F3B400CB8F51 /* CupcakeCornerApp.swift */,
 				0601889E2C33F3B400CB8F51 /* ContentView.swift */,
-				060188AE2C343E8C00CB8F51 /* ValidationForms.swift */,
-				060188AC2C34291900CB8F51 /* ImageLoader.swift */,
 				060188A02C33F3B500CB8F51 /* Assets.xcassets */,
 				060188A22C33F3B500CB8F51 /* Preview Content */,
 			);
@@ -71,6 +70,15 @@
 				060188A32C33F3B500CB8F51 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		060188B02C343F6500CB8F51 /* Side Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				060188AE2C343E8C00CB8F51 /* ValidationForms.swift */,
+				060188AC2C34291900CB8F51 /* ImageLoader.swift */,
+			);
+			path = "Side Lessons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
