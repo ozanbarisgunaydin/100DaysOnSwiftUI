@@ -18,6 +18,7 @@
 		06E44E9B2C34498800DC8C4C /* DataLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E44E9A2C34498800DC8C4C /* DataLoad.swift */; };
 		06E44E9F2C344A1300DC8C4C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E44E9E2C344A1300DC8C4C /* Order.swift */; };
 		06E44EA12C344D9900DC8C4C /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E44EA02C344D9900DC8C4C /* AddressView.swift */; };
+		06E44EA32C344E6200DC8C4C /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E44EA22C344E6200DC8C4C /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		06E44E9A2C34498800DC8C4C /* DataLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoad.swift; sourceTree = "<group>"; };
 		06E44E9E2C344A1300DC8C4C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		06E44EA02C344D9900DC8C4C /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		06E44EA22C344E6200DC8C4C /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				0601889E2C33F3B400CB8F51 /* ContentView.swift */,
 				06E44EA02C344D9900DC8C4C /* AddressView.swift */,
+				06E44EA22C344E6200DC8C4C /* CheckoutView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				0601889F2C33F3B400CB8F51 /* ContentView.swift in Sources */,
 				06E44E992C34411300DC8C4C /* HapticEffects.swift in Sources */,
+				06E44EA32C344E6200DC8C4C /* CheckoutView.swift in Sources */,
 				06E44E9F2C344A1300DC8C4C /* Order.swift in Sources */,
 				0601889D2C33F3B400CB8F51 /* CupcakeCornerApp.swift in Sources */,
 				060188AF2C343E8C00CB8F51 /* ValidationForms.swift in Sources */,
