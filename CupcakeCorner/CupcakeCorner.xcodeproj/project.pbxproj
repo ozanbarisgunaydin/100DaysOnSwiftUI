@@ -14,6 +14,7 @@
 		060188AD2C34291900CB8F51 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060188AC2C34291900CB8F51 /* ImageLoader.swift */; };
 		060188AF2C343E8C00CB8F51 /* ValidationForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060188AE2C343E8C00CB8F51 /* ValidationForms.swift */; };
 		06E44E972C343FD900DC8C4C /* ObservableCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E44E962C343FD900DC8C4C /* ObservableCodable.swift */; };
+		06E44E992C34411300DC8C4C /* HapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E44E982C34411300DC8C4C /* HapticEffects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		060188AC2C34291900CB8F51 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		060188AE2C343E8C00CB8F51 /* ValidationForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationForms.swift; sourceTree = "<group>"; };
 		06E44E962C343FD900DC8C4C /* ObservableCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableCodable.swift; sourceTree = "<group>"; };
+		06E44E982C34411300DC8C4C /* HapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				060188AE2C343E8C00CB8F51 /* ValidationForms.swift */,
 				06E44E962C343FD900DC8C4C /* ObservableCodable.swift */,
 				060188AC2C34291900CB8F51 /* ImageLoader.swift */,
+				06E44E982C34411300DC8C4C /* HapticEffects.swift */,
 			);
 			path = "Side Lessons";
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0601889F2C33F3B400CB8F51 /* ContentView.swift in Sources */,
+				06E44E992C34411300DC8C4C /* HapticEffects.swift in Sources */,
 				0601889D2C33F3B400CB8F51 /* CupcakeCornerApp.swift in Sources */,
 				060188AF2C343E8C00CB8F51 /* ValidationForms.swift in Sources */,
 				060188AD2C34291900CB8F51 /* ImageLoader.swift in Sources */,
