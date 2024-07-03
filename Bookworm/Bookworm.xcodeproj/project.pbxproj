@@ -12,6 +12,7 @@
 		06B1F8352C357473007BADF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B1F8342C357473007BADF9 /* Assets.xcassets */; };
 		06B1F8382C357473007BADF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B1F8372C357473007BADF9 /* Preview Assets.xcassets */; };
 		06B1F8402C357757007BADF9 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1F83F2C357757007BADF9 /* BindingView.swift */; };
+		06B1F8422C3577EB007BADF9 /* MultiLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1F8412C3577EB007BADF9 /* MultiLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		06B1F8342C357473007BADF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06B1F8372C357473007BADF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06B1F83F2C357757007BADF9 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		06B1F8412C3577EB007BADF9 /* MultiLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				06B1F83F2C357757007BADF9 /* BindingView.swift */,
+				06B1F8412C3577EB007BADF9 /* MultiLineView.swift */,
 			);
 			path = WorkArroundLessons;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B1F8422C3577EB007BADF9 /* MultiLineView.swift in Sources */,
 				06B1F8332C357472007BADF9 /* ContentView.swift in Sources */,
 				06B1F8312C357472007BADF9 /* BookwormApp.swift in Sources */,
 				06B1F8402C357757007BADF9 /* BindingView.swift in Sources */,
