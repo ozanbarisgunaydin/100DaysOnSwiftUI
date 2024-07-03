@@ -48,6 +48,6 @@ struct RatingView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .fixedLayout(width: 150, height: 210)) {
     RatingView(rating: .constant(3))
 }
