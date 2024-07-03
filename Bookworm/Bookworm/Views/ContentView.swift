@@ -12,7 +12,16 @@ struct ContentView: View {
     @Environment(\.modelContext) var modelContext
     /// `Query` -> Auto finds context and loads the data
     /// In addition update data on changes
-    @Query var books: [Book]
+    ///
+    /// Other sort Options:
+    ///   @Query(sort: \Book.title) var books: [Book]
+    ///   @Query(sort: \Book.rating, order: .reverse) var books: [Book]
+    @Query(
+        sort: [
+            SortDescriptor(\Book.title),
+            SortDescriptor(\Book.author)
+        ]
+    ) var books: [Book]
     
     @State private var showingAddScreen = false
     
