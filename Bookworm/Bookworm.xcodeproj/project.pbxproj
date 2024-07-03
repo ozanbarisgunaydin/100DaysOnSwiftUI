@@ -13,6 +13,8 @@
 		06B1F8382C357473007BADF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B1F8372C357473007BADF9 /* Preview Assets.xcassets */; };
 		06B1F8402C357757007BADF9 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1F83F2C357757007BADF9 /* BindingView.swift */; };
 		06B1F8422C3577EB007BADF9 /* MultiLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1F8412C3577EB007BADF9 /* MultiLineView.swift */; };
+		06B1F8462C35819D007BADF9 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1F8452C35819D007BADF9 /* Book.swift */; };
+		06B1F84A2C358A39007BADF9 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1F8492C358A39007BADF9 /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		06B1F8372C357473007BADF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06B1F83F2C357757007BADF9 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		06B1F8412C3577EB007BADF9 /* MultiLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineView.swift; sourceTree = "<group>"; };
+		06B1F8452C35819D007BADF9 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		06B1F8492C358A39007BADF9 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +59,10 @@
 		06B1F82F2C357472007BADF9 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				06B1F8482C358257007BADF9 /* Views */,
+				06B1F8472C358244007BADF9 /* Models */,
 				06B1F83E2C357740007BADF9 /* WorkArroundLessons */,
 				06B1F8302C357472007BADF9 /* BookwormApp.swift */,
-				06B1F8322C357472007BADF9 /* ContentView.swift */,
 				06B1F8342C357473007BADF9 /* Assets.xcassets */,
 				06B1F8362C357473007BADF9 /* Preview Content */,
 			);
@@ -79,6 +84,23 @@
 				06B1F8412C3577EB007BADF9 /* MultiLineView.swift */,
 			);
 			path = WorkArroundLessons;
+			sourceTree = "<group>";
+		};
+		06B1F8472C358244007BADF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06B1F8452C35819D007BADF9 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		06B1F8482C358257007BADF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06B1F8322C357472007BADF9 /* ContentView.swift */,
+				06B1F8492C358A39007BADF9 /* AddBookView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				06B1F8422C3577EB007BADF9 /* MultiLineView.swift in Sources */,
+				06B1F84A2C358A39007BADF9 /* AddBookView.swift in Sources */,
+				06B1F8462C35819D007BADF9 /* Book.swift in Sources */,
 				06B1F8332C357472007BADF9 /* ContentView.swift in Sources */,
 				06B1F8312C357472007BADF9 /* BookwormApp.swift in Sources */,
 				06B1F8402C357757007BADF9 /* BindingView.swift in Sources */,
