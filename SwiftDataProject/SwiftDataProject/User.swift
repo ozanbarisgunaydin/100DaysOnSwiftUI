@@ -13,7 +13,11 @@ class User {
     var name: String
     var city: String
     var joinDate: Date
-    
+    /// Makes `Migration`
+    ///
+    /// @Relationship(deleteRule: .cascade) .... handles the removing jobs when the user is deleted.
+    @Relationship(deleteRule: .cascade) var jobs: [Job] = []
+
     init(
         name: String,
         city: String,

@@ -14,6 +14,6 @@ struct SwiftDataProjectApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: User.self)
+        .modelContainer(for: User.self) /// No need to Job addition since it is attached on the user.jobs object
     }
 }
