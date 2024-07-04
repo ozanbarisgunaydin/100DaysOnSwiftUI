@@ -13,6 +13,7 @@
 		06D302242C36A41E00F81B2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D302232C36A41E00F81B2A /* Preview Assets.xcassets */; };
 		06D3022C2C36AC4E00F81B2A /* PropertyWrapperStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3022B2C36AC4E00F81B2A /* PropertyWrapperStructs.swift */; };
 		06D3022E2C36ACE400F81B2A /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3022D2C36ACE400F81B2A /* ConfirmationDialogView.swift */; };
+		06D302302C36AE5F00F81B2A /* CoreImageSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3022F2C36AE5F00F81B2A /* CoreImageSampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		06D302232C36A41E00F81B2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06D3022B2C36AC4E00F81B2A /* PropertyWrapperStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperStructs.swift; sourceTree = "<group>"; };
 		06D3022D2C36ACE400F81B2A /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
+		06D3022F2C36AE5F00F81B2A /* CoreImageSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageSampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				06D3022B2C36AC4E00F81B2A /* PropertyWrapperStructs.swift */,
 				06D3022D2C36ACE400F81B2A /* ConfirmationDialogView.swift */,
+				06D3022F2C36AE5F00F81B2A /* CoreImageSampleView.swift */,
 			);
 			path = OtherStuffs;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D3021F2C36A41D00F81B2A /* ContentView.swift in Sources */,
+				06D302302C36AE5F00F81B2A /* CoreImageSampleView.swift in Sources */,
 				06D3021D2C36A41D00F81B2A /* InstafilterApp.swift in Sources */,
 				06D3022C2C36AC4E00F81B2A /* PropertyWrapperStructs.swift in Sources */,
 				06D3022E2C36ACE400F81B2A /* ConfirmationDialogView.swift in Sources */,
