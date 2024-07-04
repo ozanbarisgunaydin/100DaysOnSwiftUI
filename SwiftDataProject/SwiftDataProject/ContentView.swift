@@ -10,25 +10,51 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.modelContext) var modelContext
-    @Query(sort: \User.name) var users: [User] = []
-    @State private var path: [User] = []
+    @Query(
+        filter: #Predicate<User> { user in
+            user.name.localizedStandardContains("R") && /// `localizedStandardContains` counts the small "r" also
+            user.city == "London"
+        },
+        sort: \User.name
+    ) var users: [User] = []
     
     var body: some View {
-        NavigationStack(path: $path) {
+        NavigationStack {
             List(users) { user in
                 NavigationLink(value: user) {
                     Text(user.name)
                 }
             }
             .navigationTitle("Users")
-            .navigationDestination(for: User.self) { user in
-                EditUserView(user: user)
-            }
             .toolbar {
-                Button("Add user", systemImage: "plus") {
-                    let user = User(name: "", city: "", joinDate: .now)
-                    modelContext.insert(user)
-                    path = [user]
+                Button("Add Samples", systemImage: "plus") {
+                    try? modelContext.delete(model: User.self)
+                    
+                    let firstUser = User(
+                        name: "Ed Sheeron",
+                        city: "London",
+                        joinDate: .now.addingTimeInterval(86400 * -10)
+                    )
+                    let secondUser = User(
+                        name: "Rosa Diaz",
+                        city: "New York",
+                        joinDate: .now.addingTimeInterval(86400 * -5)
+                    )
+                    let thirdUser = User(
+                        name: "Roy Kent",
+                        city: "London",
+                        joinDate: .now.addingTimeInterval(86400 * -5)
+                    )
+                    let fourthUser = User(
+                        name: "Johnny English",
+                        city: "London",
+                        joinDate: .now.addingTimeInterval(86400 * 10)
+                    )
+                    
+                    modelContext.insert(firstUser)
+                    modelContext.insert(secondUser)
+                    modelContext.insert(thirdUser)
+                    modelContext.insert(fourthUser)
                 }
             }
         }

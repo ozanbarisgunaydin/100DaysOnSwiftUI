@@ -12,7 +12,6 @@
 		06D301FB2C3683C000F81B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D301FA2C3683C000F81B2A /* Assets.xcassets */; };
 		06D301FE2C3683C000F81B2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D301FD2C3683C000F81B2A /* Preview Assets.xcassets */; };
 		06D302052C3683EA00F81B2A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D302042C3683EA00F81B2A /* User.swift */; };
-		06D302092C36844700F81B2A /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D302082C36844700F81B2A /* EditUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		06D301FA2C3683C000F81B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D301FD2C3683C000F81B2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06D302042C3683EA00F81B2A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		06D302082C36844700F81B2A /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 			children = (
 				06D301F62C3683BF00F81B2A /* SwiftDataProjectApp.swift */,
 				06D301F82C3683BF00F81B2A /* ContentView.swift */,
-				06D302082C36844700F81B2A /* EditUserView.swift */,
 				06D302042C3683EA00F81B2A /* User.swift */,
 				06D301FA2C3683C000F81B2A /* Assets.xcassets */,
 				06D301FC2C3683C000F81B2A /* Preview Content */,
@@ -144,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D301F92C3683BF00F81B2A /* ContentView.swift in Sources */,
-				06D302092C36844700F81B2A /* EditUserView.swift in Sources */,
 				06D301F72C3683BF00F81B2A /* SwiftDataProjectApp.swift in Sources */,
 				06D302052C3683EA00F81B2A /* User.swift in Sources */,
 			);
