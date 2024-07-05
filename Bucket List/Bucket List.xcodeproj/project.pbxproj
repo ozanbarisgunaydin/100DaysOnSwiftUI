@@ -14,6 +14,7 @@
 		06D780272C382FBA00D4ABA6 /* ComporableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D780262C382FBA00D4ABA6 /* ComporableView.swift */; };
 		06D780292C3832D000D4ABA6 /* WriteDocumentaryDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D780282C3832D000D4ABA6 /* WriteDocumentaryDataView.swift */; };
 		06D7802C2C38379700D4ABA6 /* SwitchViewStatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D7802B2C38379700D4ABA6 /* SwitchViewStatesView.swift */; };
+		06D7802E2C3838BE00D4ABA6 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D7802D2C3838BE00D4ABA6 /* MapKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		06D780262C382FBA00D4ABA6 /* ComporableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComporableView.swift; sourceTree = "<group>"; };
 		06D780282C3832D000D4ABA6 /* WriteDocumentaryDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDocumentaryDataView.swift; sourceTree = "<group>"; };
 		06D7802B2C38379700D4ABA6 /* SwitchViewStatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewStatesView.swift; sourceTree = "<group>"; };
+		06D7802D2C3838BE00D4ABA6 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				06D780262C382FBA00D4ABA6 /* ComporableView.swift */,
 				06D780282C3832D000D4ABA6 /* WriteDocumentaryDataView.swift */,
 				06D7802B2C38379700D4ABA6 /* SwitchViewStatesView.swift */,
+				06D7802D2C3838BE00D4ABA6 /* MapKitView.swift */,
 			);
 			path = OtherLessonMaterials;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D7802E2C3838BE00D4ABA6 /* MapKitView.swift in Sources */,
 				06D780292C3832D000D4ABA6 /* WriteDocumentaryDataView.swift in Sources */,
 				06D7801A2C380C4100D4ABA6 /* ContentView.swift in Sources */,
 				06D780272C382FBA00D4ABA6 /* ComporableView.swift in Sources */,
