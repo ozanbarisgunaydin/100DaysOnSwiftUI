@@ -31,7 +31,7 @@ struct MapKitView: View {
                     }
             }
             Spacer(minLength: 16)
-            Text("------- ------- ------- -------")
+            Divider()
             Spacer(minLength: 16)
             
             Map {
