@@ -27,64 +27,87 @@ struct ContentView: View {
 
     var body: some View {
         NavigationStack {
-            VStack {
-                Spacer()
-                
-                PhotosPicker(selection: $selectedItem) {
-                    if let processedImage {
-                        processedImage
-                            .resizable()
-                            .scaledToFit()
-                    } else {
-                        ContentUnavailableView(
-                            "No picture",
-                            systemImage: "photo.badge.plus",
-                            description: Text("Tap to import a photo")
-                        )
-                    }
-                }
-                .buttonStyle(.plain)
-                .onChange(of: selectedItem, loadImage)
-                
-                Spacer()
-                
+        ScrollView {
                 VStack {
-                    Text("Intensity")
-                    Slider(value: $filterIntensity)
-                        .onChange(of: filterIntensity, applyProcessing)
-                    Text("Radius")
-                    Slider(value: $filterRadius)
-                        .onChange(of: filterRadius, applyProcessing)
-                    Text("Scale")
-                    Slider(value: $filterScale)
-                        .onChange(of: filterScale, applyProcessing)
-                }
-                
-                HStack {
-                    Button("Change Filter", action: changeFilter)
                     Spacer()
-                    if let processedImage {
-                        ShareLink(
-                            item: processedImage,
-                            preview: SharePreview("Instafilter Image", image: processedImage)
-                        )
+                    
+                    PhotosPicker(selection: $selectedItem) {
+                        if let processedImage {
+                            processedImage
+                                .resizable()
+                                .scaledToFit()
+                        } else {
+                            ContentUnavailableView(
+                                "No picture",
+                                systemImage: "photo.badge.plus",
+                                description: Text("Tap to import a photo")
+                            )
+                            .frame(
+                                minHeight: 256
+                            )
+                            .gradientBorder()
+                        }
                     }
-                }
-                .disabled(processedImage == nil)
+                    .buttonStyle(.plain)
+                    .onChange(of: selectedItem, loadImage)
+                    
+                    Spacer(minLength: 20)
+                    
+                    VStack {
+                        Text("Intensity")
+                        Slider(value: $filterIntensity)
+                            .onChange(of: filterIntensity, applyProcessing)
+                        Text("Radius")
+                        Slider(value: $filterRadius)
+                            .onChange(of: filterRadius, applyProcessing)
+                        Text("Scale")
+                        Slider(value: $filterScale)
+                            .onChange(of: filterScale, applyProcessing)
+                    }
+                    .padding()
+                    .gradientBorder()
+                    
+                    Spacer(minLength: 20)
 
+                    HStack {
+                        Button("Change Filter", action: changeFilter)
+                            .fontWeight(.semibold)
+                            .padding()
+                            .gradientBorder()
+                        
+                        Spacer()
+                        if let processedImage {
+                            ShareLink(
+                                item: processedImage,
+                                preview: SharePreview("Instafilter Image", image: processedImage)
+                            )
+                            .fontWeight(.semibold)
+                            .padding()
+                            .gradientBorder()
+
+                        }
+                    }
+                    .disabled(processedImage == nil)
+                    
+                }
+                .padding([.horizontal, .bottom])
+                .navigationTitle("Instafilter")
+                .confirmationDialog("Select a filter", isPresented: $showingFilters) {
+                    Button("Crystallize") { setFilter(CIFilter.crystallize())}
+                    Button("Edges") { setFilter(CIFilter.edges())}
+                    Button("Gaussion Blur") { setFilter(CIFilter.gaussianBlur())}
+                    Button("Pixellate") { setFilter(CIFilter.pixellate())}
+                    Button("Sepia Tone") { setFilter(CIFilter.sepiaTone())}
+                    Button("Unsharp Mask") { setFilter(CIFilter.unsharpMask())}
+                    Button("Vignette") { setFilter(CIFilter.vignette())}
+                    Button("Cancel", role: .cancel) { }
+                }
             }
-            .padding([.horizontal, .bottom])
-            .navigationTitle("Instafilter")
-            .confirmationDialog("Select a filter", isPresented: $showingFilters) {
-                Button("Crystallize") { setFilter(CIFilter.crystallize())}
-                Button("Edges") { setFilter(CIFilter.edges())}
-                Button("Gaussion Blur") { setFilter(CIFilter.gaussianBlur())}
-                Button("Pixellate") { setFilter(CIFilter.pixellate())}
-                Button("Sepia Tone") { setFilter(CIFilter.sepiaTone())}
-                Button("Unsharp Mask") { setFilter(CIFilter.unsharpMask())}
-                Button("Vignette") { setFilter(CIFilter.vignette())}
-                Button("Cancel", role: .cancel) { }
-            }
+            .scrollBounceBehavior(.basedOnSize)
+            
+            .background(
+                LinearGradient(colors: [.cyan.opacity(0.2), .green.opacity(0.2)], startPoint: .topTrailing, endPoint: .bottomLeading)
+            )
         }
     }
     
