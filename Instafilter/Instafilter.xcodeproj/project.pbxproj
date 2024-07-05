@@ -16,6 +16,7 @@
 		06D302302C36AE5F00F81B2A /* CoreImageSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3022F2C36AE5F00F81B2A /* CoreImageSampleView.swift */; };
 		06D302322C36C95100F81B2A /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D302312C36C95100F81B2A /* EmptyStateView.swift */; };
 		06D302342C36D14800F81B2A /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D302332C36D14800F81B2A /* PhotoPickerView.swift */; };
+		06D780032C37D72A00D4ABA6 /* ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D780022C37D72A00D4ABA6 /* ShareLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		06D3022F2C36AE5F00F81B2A /* CoreImageSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageSampleView.swift; sourceTree = "<group>"; };
 		06D302312C36C95100F81B2A /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		06D302332C36D14800F81B2A /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoPickerView.swift; path = Instafilter/PhotoPickerView.swift; sourceTree = SOURCE_ROOT; };
+		06D780022C37D72A00D4ABA6 /* ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				06D3022D2C36ACE400F81B2A /* ConfirmationDialogView.swift */,
 				06D302312C36C95100F81B2A /* EmptyStateView.swift */,
 				06D302332C36D14800F81B2A /* PhotoPickerView.swift */,
+				06D780022C37D72A00D4ABA6 /* ShareLinkView.swift */,
 				06D3022F2C36AE5F00F81B2A /* CoreImageSampleView.swift */,
 			);
 			path = OtherStuffs;
@@ -162,6 +165,7 @@
 			files = (
 				06D302322C36C95100F81B2A /* EmptyStateView.swift in Sources */,
 				06D3021F2C36A41D00F81B2A /* ContentView.swift in Sources */,
+				06D780032C37D72A00D4ABA6 /* ShareLinkView.swift in Sources */,
 				06D302302C36AE5F00F81B2A /* CoreImageSampleView.swift in Sources */,
 				06D3021D2C36A41D00F81B2A /* InstafilterApp.swift in Sources */,
 				06D3022C2C36AC4E00F81B2A /* PropertyWrapperStructs.swift in Sources */,
