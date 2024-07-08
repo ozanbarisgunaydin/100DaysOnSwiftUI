@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06AF53132C3BD3F2002EE007 /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF53122C3BD3F2002EE007 /* BiometricAuth.swift */; };
 		06D780182C380C4100D4ABA6 /* Bucket_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D780172C380C4100D4ABA6 /* Bucket_ListApp.swift */; };
 		06D7801A2C380C4100D4ABA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D780192C380C4100D4ABA6 /* ContentView.swift */; };
 		06D7801C2C380C4200D4ABA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D7801B2C380C4200D4ABA6 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06AF53122C3BD3F2002EE007 /* BiometricAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuth.swift; sourceTree = "<group>"; };
 		06D780142C380C4100D4ABA6 /* Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D780172C380C4100D4ABA6 /* Bucket_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListApp.swift; sourceTree = "<group>"; };
 		06D780192C380C4100D4ABA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				06D780282C3832D000D4ABA6 /* WriteDocumentaryDataView.swift */,
 				06D7802B2C38379700D4ABA6 /* SwitchViewStatesView.swift */,
 				06D7802D2C3838BE00D4ABA6 /* MapKitView.swift */,
+				06AF53122C3BD3F2002EE007 /* BiometricAuth.swift */,
 			);
 			path = OtherLessonMaterials;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				06D7802E2C3838BE00D4ABA6 /* MapKitView.swift in Sources */,
 				06D780292C3832D000D4ABA6 /* WriteDocumentaryDataView.swift in Sources */,
 				06D7801A2C380C4100D4ABA6 /* ContentView.swift in Sources */,
+				06AF53132C3BD3F2002EE007 /* BiometricAuth.swift in Sources */,
 				06D780272C382FBA00D4ABA6 /* ComporableView.swift in Sources */,
 				06D780182C380C4100D4ABA6 /* Bucket_ListApp.swift in Sources */,
 				06D7802C2C38379700D4ABA6 /* SwitchViewStatesView.swift in Sources */,
@@ -299,6 +303,7 @@
 				DEVELOPMENT_TEAM = 225AXALHQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -328,6 +333,7 @@
 				DEVELOPMENT_TEAM = 225AXALHQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
