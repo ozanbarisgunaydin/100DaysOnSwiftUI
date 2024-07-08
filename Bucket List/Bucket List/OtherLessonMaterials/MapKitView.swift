@@ -8,7 +8,7 @@
 import MapKit
 import SwiftUI
 
-struct Location: Identifiable {
+struct LocationMapKit: Identifiable {
     let id = UUID()
     let name: String
     let coordinate: CLLocationCoordinate2D
@@ -16,8 +16,8 @@ struct Location: Identifiable {
 
 struct MapKitView: View {
     let locations = [
-        Location(name: "Bunkingham Palace", coordinate: .init(latitude: 51.501, longitude: -0.141)),
-        Location(name: "Tower of London", coordinate: .init(latitude: 51.508, longitude: -0.076))
+        LocationMapKit(name: "Bunkingham Palace", coordinate: .init(latitude: 51.501, longitude: -0.141)),
+        LocationMapKit(name: "Tower of London", coordinate: .init(latitude: 51.508, longitude: -0.076))
     ]
     
     var body: some View {
