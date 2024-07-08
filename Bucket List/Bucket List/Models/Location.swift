@@ -32,8 +32,8 @@ struct Location: Codable, Equatable, Identifiable {
         id: UUID(),
         name: "Buckingham Palace",
         description: "Lit by over 40,000",
-        latitude: 41.501,
-        longitude: -0.141
+        latitude: 51.501476,
+        longitude: -0.140634
     )
 #endif
     

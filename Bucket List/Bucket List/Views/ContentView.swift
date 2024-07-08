@@ -1,14 +1,14 @@
 //
-//  MapMarkers.swift
+//  ContentView.swift
 //  Bucket List
 //
-//  Created by Ozan Barış Günaydın on 8.07.2024.
+//  Created by Ozan Barış Günaydın on 5.07.2024.
 //
 
 import MapKit
 import SwiftUI
 
-struct MapMarkers: View {
+struct ContentView: View {
     let startPosition = MapCameraPosition.region(
         MKCoordinateRegion(
             center: CLLocationCoordinate2D(latitude: 56, longitude: -3),
@@ -65,5 +65,5 @@ struct MapMarkers: View {
 }
 
 #Preview {
-    MapMarkers()
+    ContentView()
 }

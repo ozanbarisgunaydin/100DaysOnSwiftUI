@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		06AF53132C3BD3F2002EE007 /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF53122C3BD3F2002EE007 /* BiometricAuth.swift */; };
-		06AF53152C3C2AA8002EE007 /* MapMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF53142C3C2AA8002EE007 /* MapMarkers.swift */; };
 		06AF53192C3C2C81002EE007 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF53182C3C2C81002EE007 /* Location.swift */; };
 		06AF531B2C3C34F8002EE007 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF531A2C3C34F8002EE007 /* EditView.swift */; };
+		06AF531D2C3C3BA4002EE007 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF531C2C3C3BA4002EE007 /* Result.swift */; };
 		06D780182C380C4100D4ABA6 /* Bucket_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D780172C380C4100D4ABA6 /* Bucket_ListApp.swift */; };
 		06D7801A2C380C4100D4ABA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D780192C380C4100D4ABA6 /* ContentView.swift */; };
 		06D7801C2C380C4200D4ABA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D7801B2C380C4200D4ABA6 /* Assets.xcassets */; };
@@ -23,9 +23,9 @@
 
 /* Begin PBXFileReference section */
 		06AF53122C3BD3F2002EE007 /* BiometricAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuth.swift; sourceTree = "<group>"; };
-		06AF53142C3C2AA8002EE007 /* MapMarkers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarkers.swift; sourceTree = "<group>"; };
 		06AF53182C3C2C81002EE007 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		06AF531A2C3C34F8002EE007 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		06AF531C2C3C3BA4002EE007 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		06D780142C380C4100D4ABA6 /* Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D780172C380C4100D4ABA6 /* Bucket_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListApp.swift; sourceTree = "<group>"; };
 		06D780192C380C4100D4ABA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +48,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06AF531E2C3C3EA4002EE007 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06AF53182C3C2C81002EE007 /* Location.swift */,
+				06AF531C2C3C3BA4002EE007 /* Result.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		06AF531F2C3C3EAC002EE007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06AF531A2C3C34F8002EE007 /* EditView.swift */,
+				06D780192C380C4100D4ABA6 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		06D7800B2C380C4100D4ABA6 = {
 			isa = PBXGroup;
 			children = (
@@ -67,9 +85,10 @@
 		06D780162C380C4100D4ABA6 /* Bucket List */ = {
 			isa = PBXGroup;
 			children = (
+				06AF531F2C3C3EAC002EE007 /* Views */,
+				06AF531E2C3C3EA4002EE007 /* Models */,
 				06D780252C382FA200D4ABA6 /* OtherLessonMaterials */,
 				06D780172C380C4100D4ABA6 /* Bucket_ListApp.swift */,
-				06D780192C380C4100D4ABA6 /* ContentView.swift */,
 				06D7801B2C380C4200D4ABA6 /* Assets.xcassets */,
 				06D7801D2C380C4200D4ABA6 /* Preview Content */,
 			);
@@ -87,14 +106,11 @@
 		06D780252C382FA200D4ABA6 /* OtherLessonMaterials */ = {
 			isa = PBXGroup;
 			children = (
-				06AF53182C3C2C81002EE007 /* Location.swift */,
 				06D780262C382FBA00D4ABA6 /* ComporableView.swift */,
 				06D780282C3832D000D4ABA6 /* WriteDocumentaryDataView.swift */,
 				06D7802B2C38379700D4ABA6 /* SwitchViewStatesView.swift */,
 				06D7802D2C3838BE00D4ABA6 /* MapKitView.swift */,
 				06AF53122C3BD3F2002EE007 /* BiometricAuth.swift */,
-				06AF53142C3C2AA8002EE007 /* MapMarkers.swift */,
-				06AF531A2C3C34F8002EE007 /* EditView.swift */,
 			);
 			path = OtherLessonMaterials;
 			sourceTree = "<group>";
@@ -177,8 +193,8 @@
 				06D780272C382FBA00D4ABA6 /* ComporableView.swift in Sources */,
 				06AF531B2C3C34F8002EE007 /* EditView.swift in Sources */,
 				06D780182C380C4100D4ABA6 /* Bucket_ListApp.swift in Sources */,
-				06AF53152C3C2AA8002EE007 /* MapMarkers.swift in Sources */,
 				06D7802C2C38379700D4ABA6 /* SwitchViewStatesView.swift in Sources */,
+				06AF531D2C3C3BA4002EE007 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
