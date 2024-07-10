@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061D287B2C3F352700AAB203 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D287A2C3F352700AAB203 /* ContentView-ViewModel.swift */; };
 		06AF53132C3BD3F2002EE007 /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF53122C3BD3F2002EE007 /* BiometricAuth.swift */; };
 		06AF53192C3C2C81002EE007 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF53182C3C2C81002EE007 /* Location.swift */; };
 		06AF531B2C3C34F8002EE007 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF531A2C3C34F8002EE007 /* EditView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061D287A2C3F352700AAB203 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 		06AF53122C3BD3F2002EE007 /* BiometricAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuth.swift; sourceTree = "<group>"; };
 		06AF53182C3C2C81002EE007 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		06AF531A2C3C34F8002EE007 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				06AF531A2C3C34F8002EE007 /* EditView.swift */,
 				06D780192C380C4100D4ABA6 /* ContentView.swift */,
+				061D287A2C3F352700AAB203 /* ContentView-ViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				06AF53192C3C2C81002EE007 /* Location.swift in Sources */,
 				06D780272C382FBA00D4ABA6 /* ComporableView.swift in Sources */,
 				06AF531B2C3C34F8002EE007 /* EditView.swift in Sources */,
+				061D287B2C3F352700AAB203 /* ContentView-ViewModel.swift in Sources */,
 				06D780182C380C4100D4ABA6 /* Bucket_ListApp.swift in Sources */,
 				06D7802C2C38379700D4ABA6 /* SwitchViewStatesView.swift in Sources */,
 				06AF531D2C3C3BA4002EE007 /* Result.swift in Sources */,
