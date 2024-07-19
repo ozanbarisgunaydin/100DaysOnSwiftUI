@@ -16,6 +16,7 @@
 		06F911092C4B0E1700B74FC1 /* ResultTypeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F911082C4B0E1700B74FC1 /* ResultTypeExample.swift */; };
 		06F9110B2C4B103900B74FC1 /* ImageInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9110A2C4B103900B74FC1 /* ImageInterpolation.swift */; };
 		06F9110D2C4B267B00B74FC1 /* ContextMenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9110C2C4B267B00B74FC1 /* ContextMenuExample.swift */; };
+		06F9110F2C4B27CF00B74FC1 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9110E2C4B27CF00B74FC1 /* SwipeAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		06F911082C4B0E1700B74FC1 /* ResultTypeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTypeExample.swift; sourceTree = "<group>"; };
 		06F9110A2C4B103900B74FC1 /* ImageInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInterpolation.swift; sourceTree = "<group>"; };
 		06F9110C2C4B267B00B74FC1 /* ContextMenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuExample.swift; sourceTree = "<group>"; };
+		06F9110E2C4B27CF00B74FC1 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				06F911082C4B0E1700B74FC1 /* ResultTypeExample.swift */,
 				06F9110A2C4B103900B74FC1 /* ImageInterpolation.swift */,
 				06F9110C2C4B267B00B74FC1 /* ContextMenuExample.swift */,
+				06F9110E2C4B27CF00B74FC1 /* SwipeAction.swift */,
 			);
 			path = OtherStuffs;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				06F910F82C4B0AF000B74FC1 /* ContentView.swift in Sources */,
 				06F9110D2C4B267B00B74FC1 /* ContextMenuExample.swift in Sources */,
+				06F9110F2C4B27CF00B74FC1 /* SwipeAction.swift in Sources */,
 				06F911072C4B0C9200B74FC1 /* TabViewExample.swift in Sources */,
 				06F9110B2C4B103900B74FC1 /* ImageInterpolation.swift in Sources */,
 				06F911052C4B0C5700B74FC1 /* ListWithEditButton.swift in Sources */,
