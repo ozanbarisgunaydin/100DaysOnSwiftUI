@@ -18,6 +18,8 @@
 		06F9110D2C4B267B00B74FC1 /* ContextMenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9110C2C4B267B00B74FC1 /* ContextMenuExample.swift */; };
 		06F9110F2C4B27CF00B74FC1 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9110E2C4B27CF00B74FC1 /* SwipeAction.swift */; };
 		06F911112C4B288C00B74FC1 /* UserNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F911102C4B288C00B74FC1 /* UserNotifications.swift */; };
+		06F911132C4B2A9300B74FC1 /* SpmExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F911122C4B2A9300B74FC1 /* SpmExample.swift */; };
+		06F911162C4B2B5300B74FC1 /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 06F911152C4B2B5300B74FC1 /* SamplePackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		06F9110C2C4B267B00B74FC1 /* ContextMenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuExample.swift; sourceTree = "<group>"; };
 		06F9110E2C4B27CF00B74FC1 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		06F911102C4B288C00B74FC1 /* UserNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotifications.swift; sourceTree = "<group>"; };
+		06F911122C4B2A9300B74FC1 /* SpmExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpmExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F911162C4B2B5300B74FC1 /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +96,7 @@
 				06F9110C2C4B267B00B74FC1 /* ContextMenuExample.swift */,
 				06F9110E2C4B27CF00B74FC1 /* SwipeAction.swift */,
 				06F911102C4B288C00B74FC1 /* UserNotifications.swift */,
+				06F911122C4B2A9300B74FC1 /* SpmExample.swift */,
 			);
 			path = OtherStuffs;
 			sourceTree = "<group>";
@@ -112,6 +117,9 @@
 			dependencies = (
 			);
 			name = HotProspects;
+			packageProductDependencies = (
+				06F911152C4B2B5300B74FC1 /* SamplePackage */,
+			);
 			productName = HotProspects;
 			productReference = 06F910F22C4B0AF000B74FC1 /* HotProspects.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +148,9 @@
 				Base,
 			);
 			mainGroup = 06F910E92C4B0AF000B74FC1;
+			packageReferences = (
+				06F911142C4B2B5300B74FC1 /* XCRemoteSwiftPackageReference "SamplePackage" */,
+			);
 			productRefGroup = 06F910F32C4B0AF000B74FC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -167,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06F910F82C4B0AF000B74FC1 /* ContentView.swift in Sources */,
+				06F911132C4B2A9300B74FC1 /* SpmExample.swift in Sources */,
 				06F9110D2C4B267B00B74FC1 /* ContextMenuExample.swift in Sources */,
 				06F911112C4B288C00B74FC1 /* UserNotifications.swift in Sources */,
 				06F9110F2C4B27CF00B74FC1 /* SwipeAction.swift in Sources */,
@@ -380,6 +392,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		06F911142C4B2B5300B74FC1 /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06F911152C4B2B5300B74FC1 /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06F911142C4B2B5300B74FC1 /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 06F910EA2C4B0AF000B74FC1 /* Project object */;
 }
