@@ -13,6 +13,7 @@
 		06F910FD2C4B0AF100B74FC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F910FC2C4B0AF100B74FC1 /* Preview Assets.xcassets */; };
 		06F911052C4B0C5700B74FC1 /* ListWithEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F911042C4B0C5700B74FC1 /* ListWithEditButton.swift */; };
 		06F911072C4B0C9200B74FC1 /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F911062C4B0C9200B74FC1 /* TabViewExample.swift */; };
+		06F911092C4B0E1700B74FC1 /* ResultTypeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F911082C4B0E1700B74FC1 /* ResultTypeExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		06F910FC2C4B0AF100B74FC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06F911042C4B0C5700B74FC1 /* ListWithEditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithEditButton.swift; sourceTree = "<group>"; };
 		06F911062C4B0C9200B74FC1 /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
+		06F911082C4B0E1700B74FC1 /* ResultTypeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTypeExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				06F911042C4B0C5700B74FC1 /* ListWithEditButton.swift */,
 				06F911062C4B0C9200B74FC1 /* TabViewExample.swift */,
+				06F911082C4B0E1700B74FC1 /* ResultTypeExample.swift */,
 			);
 			path = OtherStuffs;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				06F911072C4B0C9200B74FC1 /* TabViewExample.swift in Sources */,
 				06F911052C4B0C5700B74FC1 /* ListWithEditButton.swift in Sources */,
 				06F910F62C4B0AF000B74FC1 /* HotProspectsApp.swift in Sources */,
+				06F911092C4B0E1700B74FC1 /* ResultTypeExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
