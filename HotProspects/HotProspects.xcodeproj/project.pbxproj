@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063AB3F32C514AB600CB93B7 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063AB3F22C514AB600CB93B7 /* ProspectsView.swift */; };
+		063AB3F52C514AC000CB93B7 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063AB3F42C514AC000CB93B7 /* MeView.swift */; };
+		063AB3F72C514DE200CB93B7 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063AB3F62C514DE200CB93B7 /* Prospect.swift */; };
 		06F910F62C4B0AF000B74FC1 /* HotProspectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F910F52C4B0AF000B74FC1 /* HotProspectsApp.swift */; };
 		06F910F82C4B0AF000B74FC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F910F72C4B0AF000B74FC1 /* ContentView.swift */; };
 		06F910FA2C4B0AF100B74FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F910F92C4B0AF100B74FC1 /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		063AB3F22C514AB600CB93B7 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		063AB3F42C514AC000CB93B7 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		063AB3F62C514DE200CB93B7 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 		06F910F22C4B0AF000B74FC1 /* HotProspects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotProspects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F910F52C4B0AF000B74FC1 /* HotProspectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspectsApp.swift; sourceTree = "<group>"; };
 		06F910F72C4B0AF000B74FC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +56,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063AB3F82C514DF700CB93B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06F910F72C4B0AF000B74FC1 /* ContentView.swift */,
+				063AB3F22C514AB600CB93B7 /* ProspectsView.swift */,
+				063AB3F42C514AC000CB93B7 /* MeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		063AB3F92C514DFE00CB93B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				063AB3F62C514DE200CB93B7 /* Prospect.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		06F910E92C4B0AF000B74FC1 = {
 			isa = PBXGroup;
 			children = (
@@ -69,9 +93,10 @@
 		06F910F42C4B0AF000B74FC1 /* HotProspects */ = {
 			isa = PBXGroup;
 			children = (
+				063AB3F92C514DFE00CB93B7 /* Models */,
+				063AB3F82C514DF700CB93B7 /* Views */,
 				06F911032C4B0C4900B74FC1 /* OtherStuffs */,
 				06F910F52C4B0AF000B74FC1 /* HotProspectsApp.swift */,
-				06F910F72C4B0AF000B74FC1 /* ContentView.swift */,
 				06F910F92C4B0AF100B74FC1 /* Assets.xcassets */,
 				06F910FB2C4B0AF100B74FC1 /* Preview Content */,
 			);
@@ -177,8 +202,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				063AB3F52C514AC000CB93B7 /* MeView.swift in Sources */,
 				06F910F82C4B0AF000B74FC1 /* ContentView.swift in Sources */,
 				06F911132C4B2A9300B74FC1 /* SpmExample.swift in Sources */,
+				063AB3F72C514DE200CB93B7 /* Prospect.swift in Sources */,
 				06F9110D2C4B267B00B74FC1 /* ContextMenuExample.swift in Sources */,
 				06F911112C4B288C00B74FC1 /* UserNotifications.swift in Sources */,
 				06F9110F2C4B27CF00B74FC1 /* SwipeAction.swift in Sources */,
@@ -186,6 +213,7 @@
 				06F9110B2C4B103900B74FC1 /* ImageInterpolation.swift in Sources */,
 				06F911052C4B0C5700B74FC1 /* ListWithEditButton.swift in Sources */,
 				06F910F62C4B0AF000B74FC1 /* HotProspectsApp.swift in Sources */,
+				063AB3F32C514AB600CB93B7 /* ProspectsView.swift in Sources */,
 				06F911092C4B0E1700B74FC1 /* ResultTypeExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
