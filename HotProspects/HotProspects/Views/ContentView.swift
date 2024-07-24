@@ -15,10 +15,12 @@ struct ContentView: View {
                 .tabItem {
                     Label("Everyone", systemImage: "person.3")
                 }
+            
             ProspectsView(filter: .contancted)
                 .tabItem {
                     Label("Contact", systemImage: "checkmark.circle")
                 }
+            
             ProspectsView(filter: .uncontacted)
                 .tabItem {
                     Label("Uncontacted", systemImage: "questionmark.diamond")
