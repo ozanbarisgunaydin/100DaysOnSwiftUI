@@ -26,7 +26,7 @@ struct MeView: View {
                     .textContentType(.emailAddress)
                     .font(.title2)
                 
-                Image(uiImage: generateQRCode(from: "\(name)_\(emailAddress)"))
+                Image(uiImage: generateQRCode(from: "\(name)\n\(emailAddress)"))
                     .interpolation(.none)
                     .resizable()
                     .scaledToFit()

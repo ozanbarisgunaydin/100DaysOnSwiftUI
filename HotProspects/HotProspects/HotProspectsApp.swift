@@ -12,7 +12,7 @@ import SwiftUI
 struct HotProspectsApp: App {
     var body: some Scene {
         WindowGroup {
-            UserNotifications()
+            ContentView()
         }
         .modelContainer(for: Prospect.self)
     }
