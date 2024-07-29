@@ -15,7 +15,7 @@ struct GestureView: View {
                     print("⭕️ Text tapped")
                 }
         }
-        .highPriorityGesture(
+        .simultaneousGesture( /// Both prints fired
             TapGesture()
                 .onEnded {
                     print("⭕️ VStack tapped")
