@@ -14,6 +14,7 @@
 		06B1D08F2C5781D700EC32F1 /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1D08E2C5781D700EC32F1 /* GestureView.swift */; };
 		06D521492C592298004F8768 /* HitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D521482C592298004F8768 /* HitTestingView.swift */; };
 		06D5214B2C592416004F8768 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D5214A2C592416004F8768 /* TimerView.swift */; };
+		06D5214D2C592BBE004F8768 /* BackgroundForeground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D5214C2C592BBE004F8768 /* BackgroundForeground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		06B1D08E2C5781D700EC32F1 /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
 		06D521482C592298004F8768 /* HitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestingView.swift; sourceTree = "<group>"; };
 		06D5214A2C592416004F8768 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		06D5214C2C592BBE004F8768 /* BackgroundForeground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundForeground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				06B1D08E2C5781D700EC32F1 /* GestureView.swift */,
 				06D521482C592298004F8768 /* HitTestingView.swift */,
 				06D5214A2C592416004F8768 /* TimerView.swift */,
+				06D5214C2C592BBE004F8768 /* BackgroundForeground.swift */,
 			);
 			path = OtherStuffs;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				06D5214B2C592416004F8768 /* TimerView.swift in Sources */,
 				063AB40C2C51739B00CB93B7 /* ContentView.swift in Sources */,
+				06D5214D2C592BBE004F8768 /* BackgroundForeground.swift in Sources */,
 				06D521492C592298004F8768 /* HitTestingView.swift in Sources */,
 				063AB40A2C51739B00CB93B7 /* FlashzillaApp.swift in Sources */,
 				06B1D08F2C5781D700EC32F1 /* GestureView.swift in Sources */,
