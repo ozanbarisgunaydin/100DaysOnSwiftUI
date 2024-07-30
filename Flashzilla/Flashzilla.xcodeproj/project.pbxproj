@@ -16,6 +16,8 @@
 		06D5214B2C592416004F8768 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D5214A2C592416004F8768 /* TimerView.swift */; };
 		06D5214D2C592BBE004F8768 /* BackgroundForeground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D5214C2C592BBE004F8768 /* BackgroundForeground.swift */; };
 		06D5214F2C593012004F8768 /* AccessibilitySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D5214E2C593012004F8768 /* AccessibilitySettings.swift */; };
+		06D521522C593346004F8768 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D521512C593346004F8768 /* Card.swift */; };
+		06D521552C59345C004F8768 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D521542C59345C004F8768 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		06D5214A2C592416004F8768 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		06D5214C2C592BBE004F8768 /* BackgroundForeground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundForeground.swift; sourceTree = "<group>"; };
 		06D5214E2C593012004F8768 /* AccessibilitySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilitySettings.swift; sourceTree = "<group>"; };
+		06D521512C593346004F8768 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		06D521542C59345C004F8768 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		063AB4082C51739B00CB93B7 /* Flashzilla */ = {
 			isa = PBXGroup;
 			children = (
+				06D521532C593456004F8768 /* Views */,
+				06D521502C59333C004F8768 /* Models */,
 				06B1D08D2C5781CA00EC32F1 /* OtherStuffs */,
 				063AB4092C51739B00CB93B7 /* FlashzillaApp.swift */,
 				063AB40B2C51739B00CB93B7 /* ContentView.swift */,
@@ -88,6 +94,22 @@
 				06D5214E2C593012004F8768 /* AccessibilitySettings.swift */,
 			);
 			path = OtherStuffs;
+			sourceTree = "<group>";
+		};
+		06D521502C59333C004F8768 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06D521512C593346004F8768 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		06D521532C593456004F8768 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06D521542C59345C004F8768 /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,12 +183,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D5214B2C592416004F8768 /* TimerView.swift in Sources */,
+				06D521552C59345C004F8768 /* CardView.swift in Sources */,
 				063AB40C2C51739B00CB93B7 /* ContentView.swift in Sources */,
 				06D5214D2C592BBE004F8768 /* BackgroundForeground.swift in Sources */,
 				06D5214F2C593012004F8768 /* AccessibilitySettings.swift in Sources */,
 				06D521492C592298004F8768 /* HitTestingView.swift in Sources */,
 				063AB40A2C51739B00CB93B7 /* FlashzillaApp.swift in Sources */,
 				06B1D08F2C5781D700EC32F1 /* GestureView.swift in Sources */,
+				06D521522C593346004F8768 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +330,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,8 +359,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
