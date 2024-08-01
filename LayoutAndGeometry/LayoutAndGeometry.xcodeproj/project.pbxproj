@@ -15,6 +15,7 @@
 		06F3E5C42C5C3B1200579237 /* AbsolutePositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C32C5C3B1200579237 /* AbsolutePositioning.swift */; };
 		06F3E5C62C5C3C4700579237 /* ResizingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C52C5C3C4700579237 /* ResizingImage.swift */; };
 		06F3E5C82C5C3FAB00579237 /* UnderstandingGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C72C5C3FAB00579237 /* UnderstandingGeometryView.swift */; };
+		06F3E5CA2C5C41F700579237 /* ScrollViewGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C92C5C41F700579237 /* ScrollViewGeometry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		06F3E5C32C5C3B1200579237 /* AbsolutePositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioning.swift; sourceTree = "<group>"; };
 		06F3E5C52C5C3C4700579237 /* ResizingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingImage.swift; sourceTree = "<group>"; };
 		06F3E5C72C5C3FAB00579237 /* UnderstandingGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingGeometryView.swift; sourceTree = "<group>"; };
+		06F3E5C92C5C41F700579237 /* ScrollViewGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewGeometry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				06F3E5C32C5C3B1200579237 /* AbsolutePositioning.swift */,
 				06F3E5C52C5C3C4700579237 /* ResizingImage.swift */,
 				06F3E5C72C5C3FAB00579237 /* UnderstandingGeometryView.swift */,
+				06F3E5C92C5C41F700579237 /* ScrollViewGeometry.swift */,
 			);
 			path = OtherStuffs;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				06F3E5C62C5C3C4700579237 /* ResizingImage.swift in Sources */,
 				06F3E5C82C5C3FAB00579237 /* UnderstandingGeometryView.swift in Sources */,
 				06F3E5C22C5C395000579237 /* CustomAlignment.swift in Sources */,
+				06F3E5CA2C5C41F700579237 /* ScrollViewGeometry.swift in Sources */,
 				06F3E5B32C5B8E3900579237 /* ContentView.swift in Sources */,
 				06F3E5C42C5C3B1200579237 /* AbsolutePositioning.swift in Sources */,
 				06F3E5B12C5B8E3900579237 /* LayoutAndGeometryApp.swift in Sources */,
