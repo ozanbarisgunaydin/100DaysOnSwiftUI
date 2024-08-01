@@ -12,6 +12,7 @@
 		06F3E5E02C5C468700579237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F3E5DF2C5C468700579237 /* Assets.xcassets */; };
 		06F3E5E32C5C468700579237 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F3E5E22C5C468700579237 /* Preview Assets.xcassets */; };
 		06F3E5EB2C5C48B600579237 /* SideBySideViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5EA2C5C48B600579237 /* SideBySideViews.swift */; };
+		06F3E5ED2C5C4ADB00579237 /* AlertWithOptinals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5EC2C5C4ADB00579237 /* AlertWithOptinals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		06F3E5DF2C5C468700579237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06F3E5E22C5C468700579237 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06F3E5EA2C5C48B600579237 /* SideBySideViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBySideViews.swift; sourceTree = "<group>"; };
+		06F3E5EC2C5C4ADB00579237 /* AlertWithOptinals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWithOptinals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				06F3E5EA2C5C48B600579237 /* SideBySideViews.swift */,
+				06F3E5EC2C5C4ADB00579237 /* AlertWithOptinals.swift */,
 			);
 			path = TechnicalPreparations;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F3E5ED2C5C4ADB00579237 /* AlertWithOptinals.swift in Sources */,
 				06F3E5DE2C5C468600579237 /* ContentView.swift in Sources */,
 				06F3E5DC2C5C468600579237 /* SnowSeekerApp.swift in Sources */,
 				06F3E5EB2C5C48B600579237 /* SideBySideViews.swift in Sources */,
