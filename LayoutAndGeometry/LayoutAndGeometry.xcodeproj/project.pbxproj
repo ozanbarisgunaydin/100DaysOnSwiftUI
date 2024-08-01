@@ -14,6 +14,7 @@
 		06F3E5C22C5C395000579237 /* CustomAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C12C5C395000579237 /* CustomAlignment.swift */; };
 		06F3E5C42C5C3B1200579237 /* AbsolutePositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C32C5C3B1200579237 /* AbsolutePositioning.swift */; };
 		06F3E5C62C5C3C4700579237 /* ResizingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C52C5C3C4700579237 /* ResizingImage.swift */; };
+		06F3E5C82C5C3FAB00579237 /* UnderstandingGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C72C5C3FAB00579237 /* UnderstandingGeometryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		06F3E5C12C5C395000579237 /* CustomAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignment.swift; sourceTree = "<group>"; };
 		06F3E5C32C5C3B1200579237 /* AbsolutePositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioning.swift; sourceTree = "<group>"; };
 		06F3E5C52C5C3C4700579237 /* ResizingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingImage.swift; sourceTree = "<group>"; };
+		06F3E5C72C5C3FAB00579237 /* UnderstandingGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingGeometryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				06F3E5C12C5C395000579237 /* CustomAlignment.swift */,
 				06F3E5C32C5C3B1200579237 /* AbsolutePositioning.swift */,
 				06F3E5C52C5C3C4700579237 /* ResizingImage.swift */,
+				06F3E5C72C5C3FAB00579237 /* UnderstandingGeometryView.swift */,
 			);
 			path = OtherStuffs;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06F3E5C62C5C3C4700579237 /* ResizingImage.swift in Sources */,
+				06F3E5C82C5C3FAB00579237 /* UnderstandingGeometryView.swift in Sources */,
 				06F3E5C22C5C395000579237 /* CustomAlignment.swift in Sources */,
 				06F3E5B32C5B8E3900579237 /* ContentView.swift in Sources */,
 				06F3E5C42C5C3B1200579237 /* AbsolutePositioning.swift in Sources */,
