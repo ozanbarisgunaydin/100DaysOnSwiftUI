@@ -17,6 +17,7 @@
 		06F3E5C82C5C3FAB00579237 /* UnderstandingGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C72C5C3FAB00579237 /* UnderstandingGeometryView.swift */; };
 		06F3E5CA2C5C41F700579237 /* ScrollViewGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C92C5C41F700579237 /* ScrollViewGeometry.swift */; };
 		06F3E5CC2C5C43ED00579237 /* ScrollGeometry2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5CB2C5C43ED00579237 /* ScrollGeometry2.swift */; };
+		06F3E5CE2C5C44C000579237 /* ScrollViewBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5CD2C5C44C000579237 /* ScrollViewBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		06F3E5C72C5C3FAB00579237 /* UnderstandingGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingGeometryView.swift; sourceTree = "<group>"; };
 		06F3E5C92C5C41F700579237 /* ScrollViewGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewGeometry.swift; sourceTree = "<group>"; };
 		06F3E5CB2C5C43ED00579237 /* ScrollGeometry2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollGeometry2.swift; sourceTree = "<group>"; };
+		06F3E5CD2C5C44C000579237 /* ScrollViewBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				06F3E5C72C5C3FAB00579237 /* UnderstandingGeometryView.swift */,
 				06F3E5C92C5C41F700579237 /* ScrollViewGeometry.swift */,
 				06F3E5CB2C5C43ED00579237 /* ScrollGeometry2.swift */,
+				06F3E5CD2C5C44C000579237 /* ScrollViewBehavior.swift */,
 			);
 			path = OtherStuffs;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F3E5CE2C5C44C000579237 /* ScrollViewBehavior.swift in Sources */,
 				06F3E5C62C5C3C4700579237 /* ResizingImage.swift in Sources */,
 				06F3E5C82C5C3FAB00579237 /* UnderstandingGeometryView.swift in Sources */,
 				06F3E5C22C5C395000579237 /* CustomAlignment.swift in Sources */,
