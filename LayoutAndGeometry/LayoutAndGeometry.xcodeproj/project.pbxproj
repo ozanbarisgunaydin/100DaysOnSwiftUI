@@ -13,6 +13,7 @@
 		06F3E5B82C5B8E3A00579237 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F3E5B72C5B8E3A00579237 /* Preview Assets.xcassets */; };
 		06F3E5C22C5C395000579237 /* CustomAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C12C5C395000579237 /* CustomAlignment.swift */; };
 		06F3E5C42C5C3B1200579237 /* AbsolutePositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C32C5C3B1200579237 /* AbsolutePositioning.swift */; };
+		06F3E5C62C5C3C4700579237 /* ResizingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3E5C52C5C3C4700579237 /* ResizingImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		06F3E5B72C5B8E3A00579237 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06F3E5C12C5C395000579237 /* CustomAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignment.swift; sourceTree = "<group>"; };
 		06F3E5C32C5C3B1200579237 /* AbsolutePositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioning.swift; sourceTree = "<group>"; };
+		06F3E5C52C5C3C4700579237 /* ResizingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				06F3E5C12C5C395000579237 /* CustomAlignment.swift */,
 				06F3E5C32C5C3B1200579237 /* AbsolutePositioning.swift */,
+				06F3E5C52C5C3C4700579237 /* ResizingImage.swift */,
 			);
 			path = OtherStuffs;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F3E5C62C5C3C4700579237 /* ResizingImage.swift in Sources */,
 				06F3E5C22C5C395000579237 /* CustomAlignment.swift in Sources */,
 				06F3E5B32C5B8E3900579237 /* ContentView.swift in Sources */,
 				06F3E5C42C5C3B1200579237 /* AbsolutePositioning.swift in Sources */,
