@@ -13,6 +13,7 @@
 		06D87FF52C61160400EEB20E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D87FF42C61160400EEB20E /* Preview Assets.xcassets */; };
 		06D87FFC2C611C4700EEB20E /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D87FFB2C611C4700EEB20E /* PathView.swift */; };
 		06D87FFE2C611C7F00EEB20E /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D87FFD2C611C7F00EEB20E /* ShapeView.swift */; };
+		06D880002C611F6D00EEB20E /* StrokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D87FFF2C611F6D00EEB20E /* StrokeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		06D87FF42C61160400EEB20E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06D87FFB2C611C4700EEB20E /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		06D87FFD2C611C7F00EEB20E /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		06D87FFF2C611F6D00EEB20E /* StrokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				06D87FEF2C61160300EEB20E /* ContentView.swift */,
 				06D87FFB2C611C4700EEB20E /* PathView.swift */,
 				06D87FFD2C611C7F00EEB20E /* ShapeView.swift */,
+				06D87FFF2C611F6D00EEB20E /* StrokeView.swift */,
 				06D87FF12C61160400EEB20E /* Assets.xcassets */,
 				06D87FF32C61160400EEB20E /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				06D87FF02C61160300EEB20E /* ContentView.swift in Sources */,
 				06D87FFC2C611C4700EEB20E /* PathView.swift in Sources */,
+				06D880002C611F6D00EEB20E /* StrokeView.swift in Sources */,
 				06D87FFE2C611C7F00EEB20E /* ShapeView.swift in Sources */,
 				06D87FEE2C61160300EEB20E /* DrawingApp.swift in Sources */,
 			);
