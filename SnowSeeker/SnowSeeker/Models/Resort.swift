@@ -21,6 +21,10 @@ struct Resort: Codable, Hashable, Identifiable {
     var runs: Int
     var facilities: [String]
     
+    var facilityTypes: [Facility] {
+        facilities.map { Facility(name: $0) }
+    }
+    
     // MARK: - Constant
     /// Swift makes the parameters `lazy when we add `static let` propety on variables.
     static let allResorts: [Resort] = Bundle.main.decode("resorts.json")
