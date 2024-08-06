@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06C78A0C2C62626A004B6DE9 /* TransformingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C78A0B2C62626A004B6DE9 /* TransformingShapes.swift */; };
 		06D87FEE2C61160300EEB20E /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D87FED2C61160300EEB20E /* DrawingApp.swift */; };
 		06D87FF02C61160300EEB20E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D87FEF2C61160300EEB20E /* ContentView.swift */; };
 		06D87FF22C61160400EEB20E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D87FF12C61160400EEB20E /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06C78A0B2C62626A004B6DE9 /* TransformingShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingShapes.swift; sourceTree = "<group>"; };
 		06D87FEA2C61160300EEB20E /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D87FED2C61160300EEB20E /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		06D87FEF2C61160300EEB20E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				06D87FFB2C611C4700EEB20E /* PathView.swift */,
 				06D87FFD2C611C7F00EEB20E /* ShapeView.swift */,
 				06D87FFF2C611F6D00EEB20E /* StrokeView.swift */,
+				06C78A0B2C62626A004B6DE9 /* TransformingShapes.swift */,
 				06D87FF12C61160400EEB20E /* Assets.xcassets */,
 				06D87FF32C61160400EEB20E /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				06D87FF02C61160300EEB20E /* ContentView.swift in Sources */,
 				06D87FFC2C611C4700EEB20E /* PathView.swift in Sources */,
 				06D880002C611F6D00EEB20E /* StrokeView.swift in Sources */,
+				06C78A0C2C62626A004B6DE9 /* TransformingShapes.swift in Sources */,
 				06D87FFE2C611C7F00EEB20E /* ShapeView.swift in Sources */,
 				06D87FEE2C61160300EEB20E /* DrawingApp.swift in Sources */,
 			);
